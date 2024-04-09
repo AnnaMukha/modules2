@@ -1,5 +1,5 @@
  //import Character from './domain';
- const { default: Character } = require('./domain');
+ const { default: Character } = import('./domain');
 
 class Game {
     start() {
